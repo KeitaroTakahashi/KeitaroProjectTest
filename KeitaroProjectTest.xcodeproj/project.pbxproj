@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1062913622244C93004AB60D /* FredericClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1062913422244C93004AB60D /* FredericClass.cpp */; };
 		82AB42972224423300F9184C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82AB42962224423300F9184C /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1062913422244C93004AB60D /* FredericClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FredericClass.cpp; sourceTree = "<group>"; };
+		1062913522244C93004AB60D /* FredericClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FredericClass.hpp; sourceTree = "<group>"; };
 		82AB42932224423300F9184C /* KeitaroProjectTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KeitaroProjectTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AB42962224423300F9184C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1062913322244C81004AB60D /* FredericClass */ = {
+			isa = PBXGroup;
+			children = (
+				1062913422244C93004AB60D /* FredericClass.cpp */,
+				1062913522244C93004AB60D /* FredericClass.hpp */,
+			);
+			path = FredericClass;
+			sourceTree = "<group>";
+		};
 		82AB428A2224423300F9184C = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +69,7 @@
 		82AB42952224423300F9184C /* KeitaroProjectTest */ = {
 			isa = PBXGroup;
 			children = (
+				1062913322244C81004AB60D /* FredericClass */,
 				82AB42962224423300F9184C /* main.cpp */,
 			);
 			path = KeitaroProjectTest;
@@ -118,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1062913622244C93004AB60D /* FredericClass.cpp in Sources */,
 				82AB42972224423300F9184C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
