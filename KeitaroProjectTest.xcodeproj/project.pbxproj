@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10F125D32224430E00163232 /* FolderFrederic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10F125D12224430E00163232 /* FolderFrederic.cpp */; };
 		82AB42972224423300F9184C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82AB42962224423300F9184C /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		10F125D12224430E00163232 /* FolderFrederic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FolderFrederic.cpp; sourceTree = "<group>"; };
+		10F125D22224430E00163232 /* FolderFrederic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FolderFrederic.hpp; sourceTree = "<group>"; };
 		82AB42932224423300F9184C /* KeitaroProjectTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KeitaroProjectTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AB42962224423300F9184C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10F125D0222442E500163232 /* FolderFrederic */ = {
+			isa = PBXGroup;
+			children = (
+				10F125D12224430E00163232 /* FolderFrederic.cpp */,
+				10F125D22224430E00163232 /* FolderFrederic.hpp */,
+			);
+			path = FolderFrederic;
+			sourceTree = "<group>";
+		};
 		82AB428A2224423300F9184C = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +69,7 @@
 		82AB42952224423300F9184C /* KeitaroProjectTest */ = {
 			isa = PBXGroup;
 			children = (
+				10F125D0222442E500163232 /* FolderFrederic */,
 				82AB42962224423300F9184C /* main.cpp */,
 			);
 			path = KeitaroProjectTest;
@@ -119,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82AB42972224423300F9184C /* main.cpp in Sources */,
+				10F125D32224430E00163232 /* FolderFrederic.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
